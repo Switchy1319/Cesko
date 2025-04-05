@@ -1,0 +1,61 @@
+
+#page-wrap {
+	margin: 50px;
+}
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th {
+		font-size: 12px;
+		background: #51BA78; 
+		color: white;
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}
+
+.g-recaptcha div div{
+	border-radius: 5px;
+	border: 1px solid #7ac9b7;
+}
+
+.g-recaptcha div div:focus{
+	border-color:#4697e4;
+}
+
+#btnShow{
+	text-align: center;
+	color: #51BA78;
+	height: 50px;
+	font-size: 20px;
+}
+
+#btnShow2{
+	text-align: center;
+	color: #51BA78;
+	height: 50px;
+	font-size: 20px;
+}
+
+.badges{
+	display: flex;
+}
+
+.google{
+	flex: 0 0 50%;
+}
+
+.apple{
+	flex: 1;
+}
